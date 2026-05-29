@@ -1,9 +1,32 @@
 site_name: Orbit Admin
-site_description: Documentation-first admin framework
+site_description: Sleek documentation-first admin framework
 site_author: Gyanankur Baruah
 repo_url: https://github.com/Gyanankur23/orbit-admin
 theme:
   name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - content.tabs.link
+    - content.tooltips
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: pink
+    - scheme: slate
+      primary: indigo
+      accent: pink
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
 nav:
   - Home: index.md
   - Setup: setup.md
