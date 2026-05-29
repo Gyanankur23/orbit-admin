@@ -1,0 +1,11 @@
+site_name: Orbit Admin
+site_description: Documentation-first admin framework
+site_author: Gyanankur Baruah
+repo_url: https://github.com/Gyanankur23/orbit-admin
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Setup: setup.md
+  - Usage: usage.md
+  - FAQ: faq.md
